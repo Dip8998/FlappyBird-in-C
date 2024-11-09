@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FlappyBird" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/FlappyBird" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../../../Codeblock/CodeBlocks/SFML-2.6.1/include" />
+				</Compiler>
+				<Linker>
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libFLAC.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libfreetype.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libogg.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libopenal32.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libsfml-audio.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libsfml-audio-d.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libsfml-audio-s.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libsfml-audio-s-d.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libsfml-graphics.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libsfml-graphics-d.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libsfml-graphics-s.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libsfml-graphics-s-d.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libsfml-main.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libsfml-main-d.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libsfml-network.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libsfml-network-d.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libsfml-network-s.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libsfml-network-s-d.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libsfml-system.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libsfml-system-d.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libsfml-system-s.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libsfml-system-s-d.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libsfml-window.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libsfml-window-d.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libsfml-window-s.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libsfml-window-s-d.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libvorbis.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libvorbisenc.a" />
+					<Add library="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib/libvorbisfile.a" />
+					<Add directory="../../../Codeblock/CodeBlocks/SFML-2.6.1/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/FlappyBird" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
